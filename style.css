@@ -1,0 +1,161 @@
+html {
+    min-height: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 64px;
+}
+
+#navbar-list {
+    height: 48px;
+    margin: 0;
+    padding: 8px 0;
+    float: right;
+}
+
+.navbar-list-item {
+    display: inline-block;
+    margin-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#signup-button {
+    padding: 6px 16px 6px 16px;
+    background-color: #4285f5;
+}
+
+#signup-button:hover {
+    animation-name: signup-hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes signup-hover {
+    0% {
+        background-color: #4285f5;
+    }
+    100% {
+        background-color: #1a448a;
+    }
+}
+
+#signup-button a {
+    color: white;
+}
+
+#logo-div {
+    width: 272px;
+    height: 92;
+    margin: 160px auto 16px auto;
+}
+
+form {
+    width: 464px;
+    margin: 0 auto;
+}
+
+#search-box {
+    height: 32px;
+    width: 400px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    opacity: 0.75;
+}
+
+#search-box:hover {
+    box-shadow: 0px 0px 8px #ababab;
+}
+
+.form-button {
+    height: 32px;
+    background-color: #ebebeb;
+    color: black;
+    border: 1px solid #ebebeb;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.form-button:hover {
+    box-shadow: 0 0 4px #ababab;
+}
+
+#form-buttons-div {
+    width: 249px;
+    margin: 16px auto 0 auto;
+}
+
+#lang-offer {
+    font-size: 12px;
+    width: 170px;
+    margin: 32px auto 0 auto;
+}
+
+footer {
+    border-top: 1px solid #e3e3e3;
+    height: 90px;
+    width: 100%;
+    float: bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-div {
+    height: 50%;
+}
+
+#upper-footer-div p {
+    margin: 0 0 0 8px;
+    color: gray;
+    padding: 10px 0;
+}
+
+#lower-footer-div {
+    border-top: 1px solid #e3e3e3;
+}
+
+.footer-list-item {
+    display: inline-block;
+    color: gray;
+}
+
+#footer-left-list {
+    float: left;
+    padding: 0;
+}
+
+#footer-right-list {
+    float: right;
+}
+
+.footer-left-list-item {
+    margin-left: 16px;
+}
+
+.footer-right-list-item {
+    margin-right: 16px;
+}
+
+#left-most-footer-item {
+    margin-left: 8px;
+}
+
+#right-most-footer-item {
+    margin-right: 8px;
+}
+
+#lower-footer-div ul {
+    margin: 0;
+    padding: 11px 0;
+}
